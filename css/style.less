@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main_header {
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+
+    a {
+        color: black;
+        font-size: 12px;
+        letter-spacing: 3px;
+        display: inline-block;
+        padding: 5px;
+        &:hover {
+            background-color: #ccc;
+            color: black;
+        }
+    }
+
+    ul {
+        display: flex;
+    }
+
+}
+
+.home_section {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    color:white;
+
+    .section_1{
+
+        padding: 48px;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%,-50%);
+
+        h1 {
+            font-size: 64px;
+        }
+
+        p:last-child {
+            margin: 15px;
+        }
+
+        a {
+            color: black;
+            background-color: white;
+            font-size: 12px;
+            margin-top:16px;
+            padding: 12px 24px;
+
+            &:hover {
+                background-color: #ccc;
+                color: black;
+            }
+
+        }
+    }
+
+    .section_2 {
+        padding: 24px 48px;
+        color: #757575;
+        font-size: 18px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
