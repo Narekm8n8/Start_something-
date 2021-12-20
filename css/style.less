@@ -12,6 +12,13 @@ li {
     list-style: none;
 }
 
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px 0;
+
+}
+
 .main_header {
 
   display: flex;
@@ -20,6 +27,7 @@ li {
   width: 100%;
   background-color: white;
   padding: 8px;
+  z-index: 9;
 
     a {
         color: black;
@@ -86,4 +94,36 @@ li {
         left: 0;
         bottom: 0;
     }
+}
+
+.about_company {
+    padding: 128px 16px;
+
+    .about_head {
+
+        >h3 {
+        text-align: center;
+        font-size: 24px;
+        margin: 18px 0;
+        }
+    }
+
+    .about_icons {
+        margin-top: 64px;
+        width: 24.99999%;
+        float: left;
+        text-align: center;
+
+        >i {
+            font-size:
+            64px;
+        }
+
+        >p:last-child {
+            font-size: 15px;
+            margin: 15px 0;
+        }
+
+    }
+
 }
