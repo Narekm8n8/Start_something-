@@ -9,6 +9,9 @@ a {
 li {
   list-style: none;
 }
+section {
+  padding: 128px 16px;
+}
 .subtitle {
   text-align: center;
   font-size: 18px;
@@ -77,9 +80,6 @@ li {
   left: 0;
   bottom: 0;
 }
-.about_company {
-  padding: 128px 16px;
-}
 .about_company .about_head > h3 {
   text-align: center;
   font-size: 24px;
@@ -97,4 +97,37 @@ li {
 .about_company .about_icons > p:last-child {
   font-size: 15px;
   margin: 15px 0;
+}
+.about_work {
+  color: black;
+  background-color: #f1f1f1;
+  padding: 128px 16px;
+  display: flex;
+}
+.about_work div {
+  width: 49.9999%;
+  padding: 0 8px;
+}
+.about_work img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+.about_work h3 {
+  margin: 10px 0;
+}
+.about_work p {
+  margin: 15px 0;
+  font-size: 15px;
+  font-weight: 400px;
+}
+.about_work a {
+  color: white;
+  background-color: black;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.about_work a:hover {
+  color: black;
+  background-color: #575757;
 }
